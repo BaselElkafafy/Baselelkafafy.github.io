@@ -16,12 +16,14 @@ const Experience = () => {
           </p>
           <p className="text-gray-300">MAY 2022 - PRESENT, HYDERABAD</p>
         </div>
-        <p className="text-gray-300 pt-5">
-          {With 1.5 years of professional experience, I have diligently Worked with Agency , partnered with Egyptian and Non Egyptian brands like Ragab Sons, Boulevard Mall, and Jovial Watches.
-My expertise encompasses the meticulous design of over 12 E-commerce stores, with a strategic emphasis on enhancing visual appeal and optimizing user experience. Effectively integrating brand identity and functionality, I consistently meet and exceed client objectives.
-Demonstrating proficiency, I adhere to industry standards, ensuring the delivery of high-quality designs that reflect a commitment to excellence in every aspect of my work.
-}
-        </p>
+        <div className="text-gray-300 pt-5">
+          <p>
+            With 1.5 years of professional experience, I have diligently worked with agencies, partnered with Egyptian and non-Egyptian brands like Ragab Sons, Boulevard Mall, and Jovial Watches.
+            My expertise encompasses the meticulous design of over 12 E-commerce stores, with a strategic emphasis on enhancing visual appeal and optimizing user experience.
+            Effectively integrating brand identity and functionality, I consistently meet and exceed client objectives.
+            Demonstrating proficiency, I adhere to industry standards, ensuring the delivery of high-quality designs that reflect a commitment to excellence in every aspect of my work.
+          </p>
+        </div>
         <div className="flex-col flex sm:flex-row">
           <div className="bg-transparent mt-5 mr-2 cursor-pointer rounded-3xl text-white py-2 px-5 border border-[#2E2E2E] w-max">
             Web Design
