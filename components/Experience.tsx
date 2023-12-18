@@ -14,11 +14,11 @@ const Experience = () => {
           <p className="text-gray-300">
             <span className="font-semibold">Web designer /</span> E-commerce Specialist
           </p>
-          <p className="text-gray-300">MAY 2022 - PRESENT, HYDERABAD</p>
+          <p className="text-gray-300">MAY 2022 - PRESENT, CAIRO</p>
         </div>
         <div className="text-gray-300 pt-5">
           <p>
-            With 1.5 years of professional experience, I have diligently worked with agencies, partnered with Egyptian and non-Egyptian brands like Ragab Sons, Boulevard Mall, and Jovial Watches. My expertise encompasses the meticulous design of over 12 E-commerce stores, with a strategic emphasis on enhancing visual appeal and optimizing user experience. Effectively integrating brand identity and functionality, I consistently meet and exceed client objectives. Demonstrating proficiency, I adhere to industry standards, ensuring the delivery of high-quality designs that reflect a commitment to excellence in every aspect of my work.
+            With +1.5 years of professional experience, I have diligently worked with agencies, partnered with Egyptian and non-Egyptian brands like Ragab Sons, Boulevard Mall, and Jovial Watches. My expertise encompasses the meticulous design of over 12 E-commerce stores, with a strategic emphasis on enhancing visual appeal and optimizing user experience. Effectively integrating brand identity and functionality, I consistently meet and exceed client objectives. Demonstrating proficiency, I adhere to industry standards, ensuring the delivery of high-quality designs that reflect a commitment to excellence in every aspect of my work.
           </p>
         </div>
         <div className="flex-col flex sm:flex-row">
