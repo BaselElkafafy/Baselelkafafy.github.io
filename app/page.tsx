@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import EgyptianProjects from "@/components/EgyptianProjects";
 import Projects from "@/components/Projects";
 
 export default function Home() {
