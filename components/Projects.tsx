@@ -48,4 +48,3 @@ const Projects = () => {
 };
 
 export default Projects;
-export default Projects;
