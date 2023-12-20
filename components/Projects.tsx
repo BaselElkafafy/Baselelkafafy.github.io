@@ -17,8 +17,8 @@ const Projects = () => {
           <div className="flex-row flex mb-5">
             <Image
               src="/FirstProject.png"
-              height={350}
-              width={350}
+              height={1200}
+              width={1600}
               alt="BMW I8 Landing Page"
             />
             <div className="p-3">
@@ -31,8 +31,8 @@ const Projects = () => {
           <div className="flex-row flex mb-5">
             <Image
               src="/SecondProject.png"
-              height={350}
-              width={350}
+              height={1200}
+              width={1600}
               alt="HireSide"
             />
             <div className="p-3">
