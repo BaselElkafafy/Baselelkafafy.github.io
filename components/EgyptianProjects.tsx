@@ -3,7 +3,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <>
+    <React.Fragment>
       <section id="projects">
         <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
           EGY BRANDS
@@ -55,8 +55,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
-    </>
+      </section>
+    </React.Fragment>
   );
 };
 
