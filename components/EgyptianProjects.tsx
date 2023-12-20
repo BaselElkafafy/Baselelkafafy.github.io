@@ -21,6 +21,7 @@ const Projects = () => {
                 alt="SPIRO SPATHIS GRAPES LANDING PAGE"
               />
             </div>
+          </div>
           <div className="flex-row flex mb-5">
             <div className="p-3">
               <Image
@@ -30,7 +31,8 @@ const Projects = () => {
                 alt="SPIRO SPATHIS CHERRY LANDING PAGE"
               />
             </div>
-            <div className="flex-row flex mb-5">
+          </div>
+          <div className="flex-row flex mb-5">
             <div className="p-3">
               <Image
                 src="/Green Apple.png"
@@ -39,7 +41,8 @@ const Projects = () => {
                 alt="SPIRO SPATHIS GREEN APPLE LANDING PAGE"
               />
             </div>
-              <div className="flex-row flex mb-5">
+          </div>
+          <div className="flex-row flex mb-5">
             <div className="p-3">
               <Image
                 src="/Lemon.png"
@@ -47,7 +50,6 @@ const Projects = () => {
                 width={1600}
                 alt="SPIRO SPATHIS LEMON LANDING PAGE"
               />
-            </div>
             </div>
           </div>
         </div>
