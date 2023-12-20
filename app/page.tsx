@@ -12,6 +12,7 @@ export default function Home() {
         <Banner />
         <About />
         <Experience />
+        <EgyptianProjects />
         <Projects />
         <Footer />
       </div>
