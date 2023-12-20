@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="flex-col flex md:flex-row  mt-7">
           <div className="flex-row flex mb-5">
             <Image
-              src="/FirstProject.svg"
+              src="/FirstProject.png"
               height={150}
               width={150}
               alt="BMW I8 Landing Page"
