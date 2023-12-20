@@ -34,7 +34,7 @@ const Projects = () => {
                 src="/SecondProject.png"
                 height={1200}
                 width={1600}
-                alt="HireSide"
+                alt="iPhone 15 pro Landing Page"
               />
             </div>
             <div className="p-3">
