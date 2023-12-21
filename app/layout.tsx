@@ -7,6 +7,9 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    "https://baselelkafafy-github-io.vercel.app"
+  ),
   title: "Basel Elkafafy",
   description: "Developer Portfolio By Basel Elkafafy",
   keywords: ["Developer", "Portfolio", "Developer Portflio", "Basel Elkafafy"],
