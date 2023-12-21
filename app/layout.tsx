@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
 
@@ -9,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Basel Elkafafy",
   description: "Developer Portfolio By Basel Elkafafy",
-  keywords: ["Developer", "Portfolio", "Developer Portflio", "Basel Elkafafy"],
+  keywords: ["Developer", "Portfolio", "Developer Portfolio", "Basel Elkafafy"],
   openGraph: {
     title: "Basel Elkafafy",
     description: "Web Designer",
@@ -30,7 +31,9 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+        <Analytics />  {/* Add Vercel Analytics component */}
       </body>
     </html>
   );
 }
+
