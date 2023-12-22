@@ -43,14 +43,6 @@ const Projects = () => {
                 />
               </div>
             </div>
-            <div className="flex-row flex mb-5">
-              <div className="p-3">
-                <Image
-                  src="/Lemon.png"
-                  height={1200}
-                  width={1600}
-                  alt="certificate3.png"
-                />
               </div>
             </div>
           </div>
