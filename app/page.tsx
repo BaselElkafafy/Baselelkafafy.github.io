@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import Certificates from "@/components/Certificates";
 import EgyptianProjects from "@/components/EgyptianProjects";
 import Projects from "@/components/Projects";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <Banner />
         <About />
         <Experience />
+        <Certificates />
         <EgyptianProjects />
         <Projects />
         <Footer />
