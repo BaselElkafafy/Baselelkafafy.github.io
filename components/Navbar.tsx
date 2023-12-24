@@ -7,7 +7,7 @@ const Navbar = () => {
   const  navigation = useNavigation();
 
   const navigateToPricing = () => {
-    router.push("/pricing");
+    navigation.navigate("/pricing");
   };
 
   return (
