@@ -4,10 +4,10 @@ import { useNavigation } from 'next/navigation';
 import React from "react";
 
 const Navbar = () => {
-  const  navigation = useNavigation();
+  const navigation = useNavigation();
 
   const navigateToPricing = () => {
-    navigation.navigate("/pricing");
+    navigation.navigate('/pricing');
   };
 
   return (
