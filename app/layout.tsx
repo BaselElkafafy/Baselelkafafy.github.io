@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
   ),
   title: "Basel Elkafafy",
   description: "Developer Portfolio By Basel Elkafafy",
-  keywords: ["Developer", "Portfolio", "Developer Portfolio", "Basel Elkafafy"],
+  keywords: ["Developer", "Portfolio", "Developer Portflio", "Basel Elkafafy"],
   openGraph: {
     title: "Basel Elkafafy",
     description: "Web Designer",
@@ -31,7 +30,6 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
       >
-        <Analytics />
         <StarsCanvas />
         <Navbar />
         {children}
