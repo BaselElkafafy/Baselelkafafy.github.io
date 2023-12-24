@@ -1,4 +1,3 @@
-// pages/pricing.tsx
 import React from "react";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
@@ -9,41 +8,7 @@ export default function PricingPage({ className = "" }: PricingPageProps) {
     <div className={`relative ${className}`}>
       <Navbar />
 
-      <div className="inline-flex h-[3518px] w-[1440px] resize flex-row overflow-hidden">
-        <div className="relative flex h-full w-full items-start overflow-clip bg-black">
-          <div className="bg-background-pattern absolute right-[-915.91px] top-[-290px] flex h-[2609px] w-[2609px] items-end bg-cover bg-center pr-[1420px] pb-64 pl-96 pt-96">
-            {/* ... (your existing code) ... */}
-          </div>
-
-          <div className="absolute bottom-14 left-96 h-4 w-16">
-            <svg
-              width="100%"
-              height="100%"
-              style={{ overflow: "visible" }}
-              preserveAspectRatio="none"
-              viewBox="0 0 66.8 14.58"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {/* ... (your existing code) ... */}
-            </svg>
-          </div>
-
-          <div className="font-poppins absolute inset-x-96 bottom-96 flex h-[770px] items-center justify-center font-bold tracking-[-0.96px] text-white">
-            {/* ... (your existing code) ... */}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-interface PricingPageProps {
-  className: string;
-}
-
-
-export default function PricingPage({ className = "" }: PricingPageProps) {
+      export default function PricingPage({ className = "" }: PricingPageProps) {
   return (
     <div className="inline-flex h-[3518px] w-[1440px] resize flex-row overflow-hidden" >
       <div className="relative flex h-full w-full items-start overflow-clip bg-black" >
@@ -180,4 +145,27 @@ export default function PricingPage({ className = "" }: PricingPageProps) {
       </div>
     </div>
   );
+}
+
+interface PricingPageProps {
+  className: string;
+}
+
+/**
+ * This component was generated from Figma with FireJet.
+ * Learn more at https://www.firejet.io
+ *
+ * README:
+ * The output code may look slightly different when copied to your codebase. To fix this:
+ * 1. Include the necessary fonts. The required fonts are imported from public/index.html
+ * 2. Include the global styles. They can be found in App.css
+ *
+ * Note: Step 2 is not required for tailwind.css output
+ */
+    </div>
+  );
+}
+
+interface PricingPageProps {
+  className: string;
 }
