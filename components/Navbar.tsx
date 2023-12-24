@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useNavigation } from 'next/navigation';
 import React from "react";
 
 const Navbar = () => {
-  const router = useRouter();
+  const  navigation = useNavigation();
 
   const navigateToPricing = () => {
     router.push("/pricing");
