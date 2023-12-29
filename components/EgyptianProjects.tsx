@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="flex-row flex mb-5">
               <div className="p-3">
                 <Image
-                  src="/Grapes.png"
+                  src="/Grapes.webp"
                   height={1200}
                   width={1600}
                   alt="SPIRO SPATHIS GRAPES LANDING PAGE"
@@ -26,7 +26,7 @@ const Projects = () => {
             <div className="flex-row flex mb-5">
               <div className="p-3">
                 <Image
-                  src="/Cherry.png"
+                  src="/Cherry.webp"
                   height={1200}
                   width={1600}
                   alt="SPIRO SPATHIS CHERRY LANDING PAGE"
