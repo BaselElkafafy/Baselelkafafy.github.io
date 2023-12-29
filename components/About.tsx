@@ -22,6 +22,11 @@ const About = () => {
           contributing to the success of online businesses through a harmonious blend of creativity and technical expertise.
         </p>
       </div>
+
+      {/* Tidio widget code */}
+      <div id="tidio-widget" style={{ position: 'fixed', bottom: '20px', right: '20px' }}>
+        <script src="//code.tidio.co/8v1h2atdhknpivrlt5easnomhpzomzjn.js" async></script>
+      </div>
     </section>
   );
 };
