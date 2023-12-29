@@ -1,22 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 const About = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-FSX55Q0Z1N";
-    script.async = true;
-    document.head.appendChild(script);
-
-    script.onload = () => {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-FSX55Q0Z1N");
-    };
-  }, []);
-
   return (
     <section
       id="about"
