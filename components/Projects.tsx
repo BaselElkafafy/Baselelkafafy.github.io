@@ -15,7 +15,7 @@ const Projects = () => {
           <div className="flex-row flex mb-5">
             <div className="p-3">
               <Image
-                src="/FirstProject.png"
+                src="/FirstProject.webp"
                 height={1200}
                 width={1600}
                 alt="BMW I8 Landing Page"
