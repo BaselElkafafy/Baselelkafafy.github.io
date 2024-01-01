@@ -2,7 +2,7 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Certificates from "@/components/Certificates";
+import Credentials from "@/components/Credentials";
 import EgyptianProjects from "@/components/EgyptianProjects";
 import Projects from "@/components/Projects";
 
@@ -15,7 +15,7 @@ export default function Home() {
         <Experience />
         <EgyptianProjects />
         <Projects />
-        <Certificates />
+        <Credentials />
         <Footer />
       </div>
     </main>
