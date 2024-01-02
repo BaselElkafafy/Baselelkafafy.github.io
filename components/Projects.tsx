@@ -28,19 +28,17 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="container mx-auto 2xl">
-        <div className="flex-col mt-7">
           <div className="flex-row flex mb-5">
             <div className="p-3">
               <Image
                 src="/Thirdproject.webp"
                 height={1200}
                 width={1600}
-                alt="porsche gt3rs"
+                alt="Porsche GT3RS"
               />
             </div>
             <div className="p-3">
-              <p className="text-white font-semibold text-xl">BMW I8</p>
+              <p className="text-white font-semibold text-xl">Porsche GT3RS</p>
               <p className="text-gray-500 text-[10px]">
                 Thrilled to share the Porsche GT3RS UI landing page designed with precision in Figma.
               </p>
@@ -52,7 +50,7 @@ const Projects = () => {
                 src="/SecondProject.png"
                 height={1200}
                 width={1600}
-                alt="iPhone 15 pro Landing Page"
+                alt="iPhone 15 Pro Landing Page"
               />
             </div>
             <div className="p-3">
