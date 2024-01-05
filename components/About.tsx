@@ -13,8 +13,8 @@ const About = () => {
           EXPLORE NOW
         </p>
         <p className="text-gray-300 text-center">
-          As a dedicated E-commerce Web Designer, Basel Elkafafy, I&rsquo;m fueled by the dynamic intersection of design
-          innovation and user-centric functionality. Specializing in crafting visually captivating online shopping experiences,
+          As a dedicated Web Designer, Basel Elkafafy, I&rsquo;m fueled by the dynamic intersection of design
+          innovation and user-centric functionality. Specializing in crafting visually captivating online experiences,
           <br />
           <br />
           I navigate the intricate dance between aesthetics and seamless functionality.
