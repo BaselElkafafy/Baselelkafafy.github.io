@@ -12,7 +12,7 @@ const Experience = () => {
       <div className="container mx-auto">
         <div className="flex flex-row justify-between pt-5">
           <p className="text-gray-300">
-            <span className="font-semibold">Web designer /</span> E-commerce Specialist
+            <span className="font-semibold">Web designer /</span> E-commerce developer
           </p>
           <p className="text-gray-300">MAY 2022 - PRESENT, CAIRO</p>
         </div>
