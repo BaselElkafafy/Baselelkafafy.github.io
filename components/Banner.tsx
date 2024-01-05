@@ -22,7 +22,7 @@ const Banner = () => {
           🍿
         </p>
         <p className="text-md text-gray-200 my-5 max-w-[600px]">
-        Passionate E-commerce Web Designer dedicated to crafting visually captivating and user-centric online shopping 
+        Passionate Web Designer dedicated to crafting visually captivating and user-centric online 
         experiences, seamlessly blending aesthetics with functionality for an enhanced user journey.
         </p>
         <div className="text-md flex justify-center">
