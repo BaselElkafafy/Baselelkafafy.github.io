@@ -49,7 +49,7 @@ const ECommerce = () => {
                 alt="Islamic Art Hub"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">HireSide</p>
+                <p className="text-white font-semibold text-xl">Islamic Art Hub</p>
                 <p className="text-gray-500 text-[10px]">
                   Developed a sophisticated e-commerce platform for the &quot;Islamic Art Hub&quot; brand with a contemporary aesthetic.
                   The website prioritizes user engagement and brand appeal.
