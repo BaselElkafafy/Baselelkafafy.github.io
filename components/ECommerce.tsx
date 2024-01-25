@@ -6,7 +6,7 @@ const ECommerce = () => {
   return (
     <section id="Latest Shopify E-commerce Websites I've Designed">
       <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
-        E-commerce
+        Ecommerce
       </h1>
       <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl ">
         EXPLORE NOW
