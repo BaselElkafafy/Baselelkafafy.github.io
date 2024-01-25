@@ -29,7 +29,7 @@ const ECommerce = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Breathe</p>
                 <p className="text-gray-500 text-[10px]">
-                  Designed a sleek e-commerce platform for the "Breathe" brand with a modern aesthetic.
+                  Designed a sleek e-commerce platform for the &quot;Breathe&quot; brand with a modern aesthetic.
                   The website emphasizes user engagement and brand appeal.
                 </p>
               </div>
@@ -51,7 +51,7 @@ const ECommerce = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">HireSide</p>
                 <p className="text-gray-500 text-[10px]">
-                  Developed a sophisticated e-commerce platform for the "Islamic Art Hub" brand with a contemporary aesthetic.
+                  Developed a sophisticated e-commerce platform for the &quot;Islamic Art Hub&quot; brand with a contemporary aesthetic.
                   The website prioritizes user engagement and brand appeal.
                 </p>
               </div>
