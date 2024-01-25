@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const E-commerce = () => {
+const ECommerce = () => {
   return (
     <section id="Latest Shopify E-commerce Websites I've Designed">
       <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
@@ -19,7 +19,7 @@ const E-commerce = () => {
             target="_blank"
             className="z-[1]"
           >
-            <div className="flex-row flex mb-5">
+            <a className="flex-row flex mb-5">
               <Image
                 src="/Breathe.webp"
                 height={150}
@@ -30,10 +30,10 @@ const E-commerce = () => {
                 <p className="text-white font-semibold text-xl">Breathe</p>
                 <p className="text-gray-500 text-[10px]">
                   Designed a sleek e-commerce platform for the "Breathe" brand with a modern aesthetic.
-The website emphasizes user engagement and brand appeal.
+                  The website emphasizes user engagement and brand appeal.
                 </p>
               </div>
-            </div>
+            </a>
           </Link>
           <Link
             href="https://www.islamicarthub.com/"
@@ -41,7 +41,7 @@ The website emphasizes user engagement and brand appeal.
             target="_blank"
             className="z-[1]"
           >
-            <div className="flex-row flex mb-5">
+            <a className="flex-row flex mb-5">
               <Image
                 src="/islamicarthub.webp"
                 height={150}
@@ -51,18 +51,11 @@ The website emphasizes user engagement and brand appeal.
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">HireSide</p>
                 <p className="text-gray-500 text-[10px]">
-                 Developed a sophisticated e-commerce platform for the "Islamic Art Hub" brand with a contemporary aesthetic.
-The website prioritizes user engagement and brand appeal.
-                  profiles.
+                  Developed a sophisticated e-commerce platform for the "Islamic Art Hub" brand with a contemporary aesthetic.
+                  The website prioritizes user engagement and brand appeal.
                 </p>
               </div>
-            </div>
-          </Link>
-        </div>
-        
-                </p>
-              </div>
-            </div>
+            </a>
           </Link>
         </div>
       </div>
@@ -70,4 +63,4 @@ The website prioritizes user engagement and brand appeal.
   );
 };
 
-export default Projects;
+export default ECommerce;
