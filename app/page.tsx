@@ -4,7 +4,7 @@ import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Credentials from "@/components/Credentials";
 import EgyptianProjects from "@/components/EgyptianProjects";
-import Ecommerce from "@components/E-commerce.tsx";
+import Ecommerce from "@components/Ecommerce.tsx";
 import Projects from "@/components/Projects";
 
 export default function Home() {
