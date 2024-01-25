@@ -1,6 +1,8 @@
+// src/components/RootLayout.tsx
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
 
@@ -33,6 +35,7 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+        <Analytics /> {/* Added the Analytics component */}
       </body>
     </html>
   );
