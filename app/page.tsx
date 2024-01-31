@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Credentials from "@/components/Credentials";
+import metrics from "@/components/metrics";
 import EgyptianProjects from "@/components/EgyptianProjects";
 import ECommerce from "@/components/ECommerce";
 import Projects from "@/components/Projects";
@@ -14,6 +15,7 @@ export default function Home() {
         <Banner />
         <About />
         <Experience />
+        <metrics />
         <ECommerce />
         <EgyptianProjects />
         <Projects />
