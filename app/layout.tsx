@@ -2,7 +2,6 @@
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Analytics } from '@vercel/analytics/react';
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
 
@@ -10,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    "https://baselelkafafy-github-io.vercel.app"
+    "https://baselelkafafy.site"
   ),
   title: "Basel Elkafafy",
   description: "Developer Portfolio By Basel Elkafafy",
@@ -35,7 +34,6 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
-        <Analytics /> {/* Added the Analytics component */}
       </body>
     </html>
   );
