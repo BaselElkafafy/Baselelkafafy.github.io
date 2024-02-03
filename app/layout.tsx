@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Basel Elkafafy",
     description: "Web Designer",
-    images: "/OpenGraph.jpg",
+    images: "/Open Graph.jpg",
   },
 };
 
