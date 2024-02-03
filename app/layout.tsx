@@ -1,7 +1,6 @@
-// src/components/RootLayout.tsx
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import "./globals.css";
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
 
@@ -12,8 +11,8 @@ export const metadata: Metadata = {
     "https://baselelkafafy.site"
   ),
   title: "Basel Elkafafy",
-  description: "Developer Portfolio By Basel Elkafafy",
-  keywords: ["Developer", "Portfolio", "Developer Portflio", "Basel Elkafafy"],
+  description: "Designer Portfolio By Basel Elkafafy",
+  keywords: ["Designer", "Portfolio", "Developer Portflio", "Basel Elkafafy"],
   openGraph: {
     title: "Basel Elkafafy",
     description: "Web Designer",
