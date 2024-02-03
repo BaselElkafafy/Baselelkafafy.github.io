@@ -22,10 +22,10 @@ const Experience = () => {
           </p>
         </div>
         <div className="flex-col flex sm:flex-row">
-          <div className="bg-transparent mt-5 mr-2 cursor-pointer rounded-3xl text-white py-2 px-5 border border-[#FF7F00] w-max">
+          <div className="bg-transparent mt-5 mr-2 cursor-pointer rounded-3xl text-white py-2 px-5 border border-[#808080] w-max">
             Web Design
           </div>
-          <div className="bg-transparent mt-5 mr-2 cursor-pointer rounded-3xl text-white py-2 px-5 border border-[#FF7F00] w-max">
+          <div className="bg-transparent mt-5 mr-2 cursor-pointer rounded-3xl text-white py-2 px-5 border border-[#808080] w-max">
             UI/UX
           </div>
         </div>
