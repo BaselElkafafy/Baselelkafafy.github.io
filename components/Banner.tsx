@@ -10,7 +10,6 @@ const Banner: React.FC = () => {
         <div className="justify-center flex">
           <Image src="/Me.webp" height={300} width={300} alt="Basel Elkafafy" />
         </div>
-
         <div className="flex flex-col gap-6 mt-6 cursor-pointer hover:-translate-y-1 transition hover:scale-110 ease-in-out hover:text-transparent bg-clip-text hover:bg-gradient-to-r from-purple-500 to-orange-400 z-[1] tracking-tighter text-7xl font-semibold text-white max-w-[600px] w-auto h-auto">
           Basel Elkafafy!
         </div>
@@ -22,19 +21,13 @@ const Banner: React.FC = () => {
           🍿
         </p>
         <div className="text-md flex justify-center">
-          <button
-            onClick={() => window.open("https://baselelk.webflow.io", "_blank")}
-          >
+          <button onClick={() => window.open("https://baselelk.webflow.io", "_blank")}>
             Visit my website
           </button>
         </div>
       </div>
     </div>
   );
-};
-
-export default Banner;
-
 };
 
 export default Banner;
