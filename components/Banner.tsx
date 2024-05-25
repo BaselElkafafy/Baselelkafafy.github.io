@@ -21,16 +21,13 @@ const Banner = () => {
           </span>{" "}
           🍿
         </p>
-        <p className="text-md text-gray-200 my-5 max-w-[600px]">
-        Passionate Web Designer dedicated to crafting visually captivating and user-centric online 
-        experiences, seamlessly blending aesthetics with functionality for an enhanced user journey.
         </p>
-        <div className="text-md flex justify-center">
-          <button
-            onClick={() => window.open("mailto:official.baselhassan@gmail.com")}
-            className=" z-[1]     padding-20  hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent "
-          >
-            Contact Me
+     <div className="text-md flex justify-center">
+  <button
+    onClick={() => window.open("https://baselelk.webflow.io", "_blank")}
+  </button>
+</div>
+            Visit my website
           </button>
         </div>
       </div>
