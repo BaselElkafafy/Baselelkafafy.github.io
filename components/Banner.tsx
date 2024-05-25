@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Banner = () => {
+const Banner: React.FC = () => {
   return (
     <div className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20]">
       <div className="flex flex-col justify-center text-center">
@@ -31,6 +31,10 @@ const Banner = () => {
       </div>
     </div>
   );
+};
+
+export default Banner;
+
 };
 
 export default Banner;
