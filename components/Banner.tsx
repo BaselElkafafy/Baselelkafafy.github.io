@@ -4,6 +4,10 @@ import React from "react";
 import Image from "next/image";
 
 const Banner: React.FC = () => {
+  const openWebsite = () => {
+    window.open("https://baselelk.webflow.io", "_blank");
+  };
+
   return (
     <div className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20]">
       <div className="flex flex-col justify-center text-center">
@@ -21,7 +25,7 @@ const Banner: React.FC = () => {
           🍿
         </p>
         <div className="text-md flex justify-center">
-          <button onClick={() => window.open("https://baselelk.webflow.io", "_blank")}>
+          <button onClick={openWebsite}>
             Visit my website
           </button>
         </div>
@@ -31,4 +35,5 @@ const Banner: React.FC = () => {
 };
 
 export default Banner;
+
 
