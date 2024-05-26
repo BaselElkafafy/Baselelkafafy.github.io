@@ -17,7 +17,7 @@ const Banner: React.FC = () => {
           href="https://baselelk.webflow.io"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-2xl font-medium tracking-tighter text-gray-300 max-w-[600px] mt-6 text-transparent font-semibold bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400 cursor-pointer"
+          className="text-2xl font-medium tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400 mt-6"
         >
           Visit my website 🍿
         </a>
