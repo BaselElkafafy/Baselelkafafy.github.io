@@ -25,7 +25,7 @@ const Banner: React.FC = () => {
           🍿
         </p>
         <div className="text-md flex justify-center">
-          <button onClick={openWebsite}>
+          <button onClick={openWebsite} className="bg-white text-black rounded-lg px-4 py-2">
             Visit my website
           </button>
         </div>
@@ -35,5 +35,3 @@ const Banner: React.FC = () => {
 };
 
 export default Banner;
-
-
