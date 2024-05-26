@@ -1,6 +1,6 @@
 export const Social_Icons = [
   {
-    link: "https://www.instagram.com/basel_kafafy/",
+    link: "https://www.instagram.com/b_elkafafy/",
     image: "/Instagram.svg",
     alt: "Instagram",
   },
